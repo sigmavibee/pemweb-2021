@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Form</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+<!-- Form -->
+<div class="navigasi">
+    <ul>
+        <li><a href="latihanhehe.html">Biodata Mahasiswa</a></li>
+        <li><a href="Blog.html">Blog</a></li>
+        <li><a class="Formulir" href="Form.html">Formulir</a></li>
+    </ul>
+</div>
+<div class="divformulir">
+    <center><h2><font color="#083f66">FORMULIR PENDAFTARAN BEASISWA PENERANG</font></h2></center>
+    <br>
+    <h3><font color="#083f66">Info Pendidikan Peserta</font></h3>
+    <form action="/action_page.php">
+        <label for="fnim">NIM</label>
+        <input type="text" id="fnim" name="NIM" placeholder="NIM Anda...">
+
+        <label for="fasaluniversitas">Asal Intansi</label>
+        <input type="text" id="fasaluniversitas" name="asaluniversitas" placeholder="Asal Universitas Anda...">
+
+        <label for="ftahunmasuk">Tahun Masuk</label>
+        <select id="ftahunmasuk" name="tahunmasuk">
+            <option value="2017">2017</option>
+            <option value="2018">2018</option>
+            <option value="2019">2019</option>
+            <option value="2020">2020</option>
+            <option value="2021">2021</option>
+        </select>
+        
+        <br><br>
+        <label for="fTransnilai">Lampirkan Transkrip Nilai</label>
+        <input type="file" id="fTransnilai" name="Transkrip Nilai">
+
+        <br><br>
+
+        <h3><font color="#083f66">Data Calon Peserta</font></h3>
+        <label for="fnamalengkap">Nama Lengkap</label>
+        <input type="text" id="fnamalengkap" name="namalengkap" placeholder="Nama lengkap Anda...">
+        <div class="tab">
+            <label for="fagamaayah">Agama</label>
+            <select id="fagamaayah" name="Agama">
+                <option value="Islam">Islam</option>
+                <option value="Kristen">Kristen</option>
+                <option value="Katolik">Katolik</option>
+                <option value="Hindu">Hindu</option>
+                <option value="Budha">Budha</option>
+                <option value="lainnya">Lainnya</option>
+            </select>
+            <label for="fpendidikanakhir">Pendidikan Terakhir</label>
+            <select id="fpendidikanakhir" name="Pendidikan">
+                <option value="SMA">SMA</option>
+                <option value="Sarjana">S1</option>
+                <option value="Magister">S2</option>
+                <option value="Doktor">S3</option>
+                <option value="lainnya">Lainnya</option>
+            </select>
+        </div>
+
+        <label for="fnik">NIK</label>
+        <input type="text" id="fnik" name="NIK" placeholder="NIK Anda...">
+
+        <label for="fttlahir">Tempat, tanggal lahir</label>
+        <input type="text" id="fttlahir" name="tempattanggallahir" placeholder="Tempat, tanggal lahir Anda...">
+
+        <br><br>
+        <label for="fakte">Lampirkan Akte Kelahiran yang telah Dilegalisir</label>
+        <input type="file" id="fakte" name="akte">
+
+        <label for="fjeniskelamin">Jenis Kelamin</label>
+        <select id="fjeniskelamin" name="jeniskelamin">
+            <option value="lakilaki">Laki-laki</option>
+            <option value="perempuan">Perempuan</option>
+            <option value="lainnya">Lainnya</option>
+        </select>
+
+        <br><br>
+        <label for="falamat">Alamat</label>
+        <input type="text" id="falamat" name="alamat" placeholder="Alamat Anda...">
+        <div class="tab">
+            <label for="fdesakel">Desa/Kelurahan</label>
+            <input type="text" id="fdesakel" name="desakel" placeholder="Nama Desa/Kelurahan Anda...">
+
+            <label for="fkecamatan">Kecamatan</label>
+                <input type="text" id="fkecamatan" name="kecamatan" placeholder="Nama Kecamatan Anda...">
+
+            <label for="fkabupaten">Kabupaten</label>
+            <input type="text" id="fkabupaten" name="kabupaten" placeholder="Nama Kabupaten Anda...">
+
+            <label for="fprovinsi">Provinsi</label>
+            <select id="ftahunmasuk" name="jenismasuk">
+                <option value="Jawa Tengah">Jawa Tengah</option>
+                <option value="Jawa Timur">Jawa Timur</option>
+                <option value="Jawa Barat">Jawa Barat</option>
+                <option value="Banten">Banten</option>
+                <option value="Jakarta">Jakarta</option>
+                <option value="Daerah Istimewa Yogyakarta">Daerah Istimewa Yogyakarta</option>
+                <option value="Bali">Bali</option>
+                <option value="Nusa Tenggara Barat">Nusa Tenggara Barat</option>
+                <option value="Nusa Tenggara Timur">Nusa Tenggara Timur</option>
+                <option value="Aceh">Aceh</option>
+                <option value="Sumatra Utara">Sumatra Utara</option>
+                <option value="Sumatra Barat">Sumatra Barat</option>
+                <option value="Riau">Riau</option>
+                <option value="Kepulauan Riau">Kepulauan Riau</option>
+                <option value="Bengkulu">Bengkulu</option>
+                <option value="Sumatra Selatan">Sumatra Selatan</option>
+                <option value="Kepulauan Bangka Belitung">Kepulauan Bangka Belitung</option>
+                <option value="Lampung">Lampung</option>
+                <option value="Kalimantan Barat">Kalimantan Barat</option>
+                <option value="Kalimantan Tengah">Kalimantan Tengah</option>
+                <option value="Kalimantan Timur">Kalimantan Timur</option>
+                <option value="Kalimantan Utara">Kalimantan Utara</option>
+                <option value="Sulawesi Utara">Sulawesi Utara</option>
+                <option value="Gorontalo">Gorontalo</option>
+                <option value="Sulawesi Tengah">Sulawesi Tengah</option>
+                <option value="Sulawesi Selatan">Sulawesi Selatan</option>
+                <option value="Sulawesi Barat">Sulawesi Barat</option>
+                <option value="Sulawesi Tenggara">Sulawesi Tenggara</option>
+                <option value="Maluku Utara">Maluku Utara</option>
+                <option value="Maluku">Maluku</option>
+                <option value="Papua Barat">Papua Barat</option>
+                <option value="Papua">Papua</option>
+            </select>
+        </div>
+        <br>
+
+        <label for="femailaktif">Email Aktif</label>
+        <input type="text" id="femailaktif" name="emailaktif" placeholder="Email Aktif Anda...">
+        <label for="fnomerhape">Nomor Handphone Aktif</label>
+        <input type="text" id="fnomerhape" name="nomoraktif" placeholder="Nomer Handphone Aktif Anda...">
+
+        <br><br>
+
+        <h3><font color="#083f66">Data Orang Tua</font></h3>
+        <label for="fkk">Lampirkan Kartu Keluarga</label>
+        <input type="file" id="fakte" name="KK">
+
+        <label for="fnomorkk">Nomor Kartu Keluarga</label>
+        <input type="text" id="fnomorkk" name="nomorKK" placeholder="Nomor Kartu Keluarga Anda...">
+
+        <br><br>
+        <label for="fnamaayah">Nama Ayah Kandung</label>
+        <input type="text" id="fnamaayah" name="namaayah" placeholder="Nama ayah kandung Anda...">
+        <div class="tab">
+            <label for="fagamaayah">Agama</label>
+            <select id="fagamaayah" name="Agama">
+                <option value="Islam">Islam</option>
+                <option value="Kristen">Kristen</option>
+                <option value="Katolik">Katolik</option>
+                <option value="Hindu">Hindu</option>
+                <option value="Budha">Budha</option>
+                <option value="lainnya">Lainnya</option>
+            </select>
+            <label for="fpekerjaanayah">Pekerjaan</label>
+            <input type="text" id="fpekerjaanayah" name="pekerjaanayah" placeholder="Pekerjaan ayah Anda...">
+        </div>
+        <br>
+
+        <label for="fnamaibu">Nama Ibu Kandung</label>
+        <input type="text" id="fnamaibu" name="namaibu" placeholder="Nama ibu kandung Anda...">
+        <div class="tab">
+            <label for="fagamaibu">Agama</label>
+            <input type="text" id="fagamaibu" name="agamaibu" placeholder="Agama ibu Anda...">
+
+            <label for="fpekerjaanibu">Pekerjaan</label>
+            <input type="text" id="fpekerjaanibu" name="pekerjaanibu" placeholder="Pekerjaan ibu Anda...">
+        </div>
+        <br>
+
+        <label for="falamatortu">Alamat Orang Tua</label>
+        <input type="text" id="falamatortu" name="alamatortu" placeholder="Alamat orang tua Anda...">
+        <div class="tab">
+            <label for="fdesakelortu">Desa/Kelurahan</label>
+            <input type="text" id="fdesakelortu" name="desakelortu" placeholder="Nama Desa/Kelurahan...">
+
+            <label for="fkecamatanortu">Kecamatan</label>
+                <input type="text" id="fkecamatanortu" name="kecamatanortu" placeholder="Nama Kecamatan...">
+
+            <label for="fkabupatenortu">Kabupaten</label>
+            <input type="text" id="fkabupatenortu" name="kabupatenortu" placeholder="Nama Kabupaten...">
+
+            <label for="fprovinsiortu">Provinsi</label>
+            <select id="ftahunmasuk" name="jenismasuk">
+                <option value="Jawa Tengah">Jawa Tengah</option>
+                <option value="Jawa Timur">Jawa Timur</option>
+                <option value="Jawa Barat">Jawa Barat</option>
+                <option value="Banten">Banten</option>
+                <option value="Jakarta">Jakarta</option>
+                <option value="Daerah Istimewa Yogyakarta">Daerah Istimewa Yogyakarta</option>
+                <option value="Bali">Bali</option>
+                <option value="Nusa Tenggara Barat">Nusa Tenggara Barat</option>
+                <option value="Nusa Tenggara Timur">Nusa Tenggara Timur</option>
+                <option value="Aceh">Aceh</option>
+                <option value="Sumatra Utara">Sumatra Utara</option>
+                <option value="Sumatra Barat">Sumatra Barat</option>
+                <option value="Riau">Riau</option>
+                <option value="Kepulauan Riau">Kepulauan Riau</option>
+                <option value="Bengkulu">Bengkulu</option>
+                <option value="Sumatra Selatan">Sumatra Selatan</option>
+                <option value="Kepulauan Bangka Belitung">Kepulauan Bangka Belitung</option>
+                <option value="Lampung">Lampung</option>
+                <option value="Kalimantan Barat">Kalimantan Barat</option>
+                <option value="Kalimantan Tengah">Kalimantan Tengah</option>
+                <option value="Kalimantan Timur">Kalimantan Timur</option>
+                <option value="Kalimantan Utara">Kalimantan Utara</option>
+                <option value="Sulawesi Utara">Sulawesi Utara</option>
+                <option value="Gorontalo">Gorontalo</option>
+                <option value="Sulawesi Tengah">Sulawesi Tengah</option>
+                <option value="Sulawesi Selatan">Sulawesi Selatan</option>
+                <option value="Sulawesi Barat">Sulawesi Barat</option>
+                <option value="Sulawesi Tenggara">Sulawesi Tenggara</option>
+                <option value="Maluku Utara">Maluku Utara</option>
+                <option value="Maluku">Maluku</option>
+                <option value="Papua Barat">Papua Barat</option>
+                <option value="Papua">Papua</option>
+            </select>
+        </div>
+        <br>
+
+    <input type="submit" value="Submit">
+    </form>
+</div>
+
+<!-- End Form -->
+
+<!-- Footer -->
+    <div align ="Center" class="footer">
+        <p>Copyright @2021 Muhammad Rizky Nugraha. All rights reserved</p>
+    </div>
+<!-- End Footer -->
+
+</body>
+</html>
